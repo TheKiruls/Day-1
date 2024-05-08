@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    display: block;
+}
+h1 {
+    color: blue;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 25%;
+    width: 50%;
+    border-radius: 3px;
+    border: solid black;
+    align-items: center;
+    margin-bottom: 10px;
+    line-height: 2em;
+}
+.introduction {
+  text-align: center;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.education {
+    text-align: center;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+.experience {
+  text-align: center;
+  height: 75%;
+}
+
+.experience li {
+    display: list-item;
+    list-style:circle;
+    text-align: justify;
+}
+
+p {
+  text-align: center;
+}
