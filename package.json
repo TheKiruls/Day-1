@@ -1,0 +1,13 @@
+{
+  "name": "w1-day-1",
+  "version": "1.0.0",
+  "description": "http for my resume ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js",
+    "lint": "eslint --fix src/**/*.js"
+  },
+  "author": "khairulamirin",
+  "license": "ISC"
+}
